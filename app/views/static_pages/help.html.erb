@@ -1,10 +1,8 @@
-<% provide :title, t(".help_title") %>
-<h1><%= t ".help_title" %></h1> 
+<% provide :title, t(".title") %>
+<h1><%= t ".title" %></h1>
 <p>
-  <%= t ".help_content1" %>
-  <%= link_to t(".help_content2"), Settings.help_page %>
-</p>
-<p>
-  <%= t ".help_content3" %>
-  <%= link_to t(".help_content4"), Settings.book_page %>
+  <%= t ".help_ror_tutorial" %>
+  <%= link_to t(".help_homepage"), Settings.railstutorial_help %>
+  <%= t ".help_sample_app" %>
+  <%= link_to t(".help_ror_book"), Settings.railstutorial_book %>
 </p>
