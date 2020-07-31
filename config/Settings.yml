@@ -1,6 +1,7 @@
-home_page: "https://www.railstutorial.org/"
-help_page: "https://www.railstutorial.org/help"
-book_page: "https://www.railstutorial.org/book"
-screencasts_page: "https://screencasts.railstutorial.org/"
+railstutorial: "https://www.railstutorial.org/"
+railstutorial_help: "https://www.railstutorial.org/help"
+railstutorial_book: "https://www.railstutorial.org/book"
+screencasts: "https://screencasts.railstutorial.org/"
 contact_page: https://www.railstutorial.org/contact
-learn_enough: "https://www.learnenough.com/"
+learnenough: "https://www.learnenough.com/"
+home_image_size: 200px

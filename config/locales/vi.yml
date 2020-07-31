@@ -1,14 +1,50 @@
 vi:
-  title: Ứng Dụng Mẫu cho Hướng đẫn Ruby on Rails
+  hello: "Xin chào"
+  title: "Ứng dụng mẫu Ruby on Rails Tutorial"
+  login: "Đăng nhập"
+  signup: "Đăng ký"
+  contact: "Liên lạc"
+  home: "Trang chủ"
+  help: "Trợ giúp"
+  layouts:
+    footer:
+      footer_the: ""
+      footer_ror_tutorial: "Hướng dẫn Ruby on Rails"
+      footer_by: "bởi"
+      footer_news: "Tin tức"
+      footer_about: "Về chúng tôi"
+      footer_contact: "Liên lạc"
+      michael_hartl: "Michael Hartl"
   static_pages:
     home:
-      home_title: Ứng Dụng Mẫu
-      home_content1: Đây là trang chủ cho ứng dụng mẫu
-      home_content2: Hướng dẫn Ruby on Rails
-      home_content3: .
+      welcome: "Chào mừng đến với ứng dụng mẫu"
+      title: "Ứng dụng mẫu"
+      home_homepage: "Đây là trang chủ cho ứng dụng mẫu"
+      home_ror_tutorial: "Ruby on Rails"
+      home_sample_app: "."
+      home_signup: "Đăng ký ngay!"
     help:
-      help_title: Trợ giúp
-      help_content1: Nhận trợ giúp về Hướng dẫn Ruby on Rails tại
-      help_content2: Trang trợ giúp hướng dẫn Rails
-      help_content3: Để nhận trợ giúp về ứng dụng mẫu này, hãy xem sách
-      help_content4: Hướng dẫn Ruby on Rails
+      title: "Trợ giúp"
+      help_ror_tutorial: "Nhận trợ giúp về hướng dẫn RoR tại trang "
+      help_homepage: "Rails Tutorial."
+      help_sample_app: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem trong sách "
+      help_ror_book: "Ruby on Rails Tutorial."
+    about:
+      title: "Về chúng tôi"
+      about_the: ""
+      about_ror_tutorial: "Ruby on Rails Tutorial"
+      about_part: "là một phần của hướng dẫn "
+      about_learn_enough: "Learn Enough"
+      about_family_tutorial: ", là một "
+      about_book: "quyển sách"
+      about_and: " và"
+      about_screencast: "hàng loạt hình ảnh"
+      about_development: " để dạy phát triển web với "
+      about_ror: "Ruby on Rails. "
+      about_sample_tutorial: "Đây là ứng dụng mẫu cho hướng dẫn."
+    contact:
+      contact_rails: "Liên hệ Ruby on Rails Tutorial về ứng dụng mẫu tại about "
+      contact_page: "trang liên hệ"
+  users:
+    new:
+      signup_message: "Đây là trang đăng nhập cho người dùng mới."
