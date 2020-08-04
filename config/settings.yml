@@ -4,9 +4,9 @@ railstutorial_book: "https://www.railstutorial.org/book"
 screencasts: "https://screencasts.railstutorial.org/"
 contact_page: https://www.railstutorial.org/contact
 learnenough: "https://www.learnenough.com/"
-home_image_size: 200px
+home_image_size: "200px"
 user:
   username_maximum: 50
   email_maximum: 255
   email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
-  password_minimum: 6
+  password_minimum: 8
