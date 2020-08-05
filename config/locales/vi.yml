@@ -6,6 +6,7 @@ vi:
   contact: "Liên lạc"
   home: "Trang chủ"
   help: "Trợ giúp"
+  sampleapp: "Sample App"
   layouts:
     footer:
       footer_the: ""
@@ -43,6 +44,7 @@ vi:
       about_ror: "Ruby on Rails. "
       about_sample_tutorial: "Đây là ứng dụng mẫu cho hướng dẫn."
     contact:
+      title: "Liên hệ"
       contact_rails: "Liên hệ Ruby on Rails Tutorial về ứng dụng mẫu tại about "
       contact_page: "trang liên hệ"
   users:
@@ -57,3 +59,12 @@ vi:
       password: "Mật khẩu"
       confirmation: "Xác nhận mật khẩu"
       create_account: "Tạo tài khoản"
+  sessions:
+    new:
+      email: "Email"
+      password: "Mật khẩu"
+      new_user: "Người dùng mới?"
+      signup_now: "Đăng ký ngay!"
+    create:
+      error_login: "Lỗi email hoặc mật khẩu"
+      success_login: "Đăng nhập thành công."

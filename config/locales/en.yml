@@ -6,6 +6,7 @@ en:
   contact: "Contact"
   home: "Home"
   help: "Help"
+  sampleapp: "Sample App"
   layouts:
     footer:
       footer_the: "The "
@@ -43,6 +44,7 @@ en:
       about_ror: "Ruby on Rails. "
       about_sample_tutorial: "This is the sample app for the tutorial."
     contact:
+      title: "Contact"
       contact_rails: "Contact the Ruby on Rails Tutorial about the sample app at the "
       contact_page: "contact page"
   users:
@@ -60,3 +62,12 @@ en:
       password: "Password"
       confirmation: "Password Confirmation"
       create_account: "Create my account"
+  sessions:
+    new:
+      email: "Email"
+      password: "Password"
+      new_user: "New user?"
+      signup_now: "Sign up now!"
+    create:
+      error_login: "Invalid email/password combination"
+      success_login: "Login successfully"
