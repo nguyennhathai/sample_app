@@ -46,5 +46,17 @@ en:
       contact_rails: "Contact the Ruby on Rails Tutorial about the sample app at the "
       contact_page: "contact page"
   users:
+    create:
+      welcome_message: "Welcome to the Sample App!"
+    show:
+      fail_message: "User not found"
     new:
       signup_message: "This will be a signup page for new users."
+      welcome_message: "Welcome to the Sample App!"
+      error_message: "The form contains "
+      error: "error"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Password Confirmation"
+      create_account: "Create my account"
