@@ -1,73 +1,83 @@
 en:
-  hello: "Hello world"
-  title: "Ruby on Rails Tutorial Sample App"
-  login: "Log in"
-  signup: "Sign up"
-  contact: "Contact"
-  home: "Home"
-  help: "Help"
-  sampleapp: "Sample App"
+  account: Account
+  contact: Contact
+  hello: Hello world
+  help: Help
+  home: Home
   layouts:
     footer:
-      footer_the: "The "
-      footer_ror_tutorial: "Ruby on Rails Tutorial"
-      footer_by: "by"
-      footer_news: "News"
-      footer_about: "About"
-      footer_contact: "Contact"
-      michael_hartl: "Michael Hartl"
+      by: by
+      footer_about: About
+      footer_by: by
+      footer_contact: Contact
+      footer_en: English
+      footer_news: News
+      footer_ror_tutorial: Ruby on Rails Tutorial
+      footer_the: 'The '
+      footer_vi: Tiếng Việt
+      michael_hartl: Michael Hartl
+  login: Log in
+  logout: Log out
+  profile: Profile
+  sampleapp: Sample App
+  sessions:
+    create:
+      error_login: Invalid email/password combination
+      success_login: Login successfully
+    new:
+      email: Email
+      new_user: New user?
+      password: Password
+      remember_me: Remember me
+      remember_message: Remember me on this computer
+      signup_now: Sign up now!
+  settings: Settings
+  signup: Sign up
   static_pages:
-    home:
-      welcome: "Welcome to the Sample App"
-      title: "Sample App"
-      home_homepage: "This is the home page for the"
-      home_ror_tutorial: "Ruby on Rails Tutorial"
-      home_sample_app: " sample application."
-      home_signup: "Sign up now!"
-    help:
-      title: "Help"
-      help_ror_tutorial: "Get help on the Ruby on Rails Tutorial at the "
-      help_homepage: "Rails Tutorial Help page."
-      help_sample_app: "To get help on this sample app, see the "
-      help_ror_book: "Ruby on Rails Tutorial book."
     about:
-      title: "About"
-      about_the: "The "
-      about_ror_tutorial: "Ruby on Rails Tutorial"
-      about_part: ", part of the "
-      about_learn_enough: "Learn Enough"
-      about_family_tutorial: "family of tutorials, is a "
-      about_book: "book"
-      about_and: "and"
-      about_screencast: "screencast series"
-      about_development: "to teach web development with "
-      about_ror: "Ruby on Rails. "
-      about_sample_tutorial: "This is the sample app for the tutorial."
+      about_and: and
+      about_book: book
+      about_development: 'to teach web development with '
+      about_family_tutorial: 'family of tutorials, is a '
+      about_learn_enough: Learn Enough
+      about_part: ', part of the '
+      about_ror: 'Ruby on Rails. '
+      about_ror_tutorial: Ruby on Rails Tutorial
+      about_sample_tutorial: This is the sample app for the tutorial.
+      about_screencast: screencast series
+      about_the: 'The '
+      title: About
     contact:
-      title: "Contact"
-      contact_rails: "Contact the Ruby on Rails Tutorial about the sample app at the "
-      contact_page: "contact page"
+      contact_page: contact page
+      contact_rails: 'Contact the Ruby on Rails Tutorial about the sample app at the '
+      title: Contact
+    help:
+      help_homepage: Rails Tutorial Help page.
+      help_ror_book: Ruby on Rails Tutorial book.
+      help_ror_tutorial: 'Get help on the Ruby on Rails Tutorial at the '
+      help_sample_app: 'To get help on this sample app, see the '
+      title: Help
+    home:
+      home_homepage: This is the home page for the
+      home_ror_tutorial: Ruby on Rails Tutorial
+      home_sample_app: ' sample application.'
+      home_signup: Sign up now!
+      title: Sample App
+      welcome: Welcome to the Sample App
+  title: Ruby on Rails Tutorial Sample App
+  user_list: Users List
   users:
     create:
-      welcome_message: "Welcome to the Sample App!"
+      welcome_message: Welcome to the Sample App!
+    new:
+      confirmation: Password Confirmation
+      create_account: Create my account
+      email: Email
+      error: error
+      error_message: 'The form contains '
+      name: Name
+      password: Password
+      signup_message: This will be a signup page for new users.
+      welcome_message: Welcome to the Sample App!
     show:
-      fail_message: "User not found"
-    new:
-      signup_message: "This will be a signup page for new users."
-      welcome_message: "Welcome to the Sample App!"
-      error_message: "The form contains "
-      error: "error"
-      name: "Name"
-      email: "Email"
-      password: "Password"
-      confirmation: "Password Confirmation"
-      create_account: "Create my account"
-  sessions:
-    new:
-      email: "Email"
-      password: "Password"
-      new_user: "New user?"
-      signup_now: "Sign up now!"
-    create:
-      error_login: "Invalid email/password combination"
-      success_login: "Login successfully"
+      fail_message: User not found
