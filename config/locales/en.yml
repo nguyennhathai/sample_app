@@ -24,6 +24,7 @@ en:
     create:
       error_login: Invalid email/password combination
       success_login: Login successfully
+      account_not_activated: Account not activated. Check your email for the activation link.
     new:
       email: Email
       new_user: New user?
@@ -75,6 +76,7 @@ en:
     create:
       fail_message: Create Failed
       welcome_message: Welcome to the Sample App!
+      active_email_message: Please check your email to activate your account.
     destroy:
       user_deleted: User deleted
     edit:
@@ -107,3 +109,14 @@ en:
     update:
       profile_updated: Profile updated
       update_failed: Updated failed
+  activation:
+    notice: "Please check your email to activate your account."
+    account_activated: "Account activated!"
+    invalid_activation: "Invalid activation"
+    greeting: "Hi"
+    subject: "Account activation"
+    welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+  account_activations:
+    edit:
+      account_activated: Account activated!
+      invalid_activation_link: Invalid activation link.
