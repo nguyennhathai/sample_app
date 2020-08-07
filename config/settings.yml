@@ -9,5 +9,9 @@ user:
   username_maximum: 50
   email_maximum: 255
   email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
-  password_minimum: 8
-checkbox_checked: 1
+  password_minimum: 6
+remember_user: 1
+items_per_pages: 20
+avatar_size: 80
+gravatar_email_url: "https://gravatar.com/emails"
+gravatar_avatar_url: "https://secure.gravatar.com/avatar/"

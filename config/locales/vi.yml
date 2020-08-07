@@ -32,6 +32,10 @@ vi:
       remember_message: Nhớ tôi trên máy tính
       signup_now: Đăng ký ngay!
   settings: Cài đặt
+  shared:
+    error_messages:
+      error: Lỗi
+      error_message: Mẫu này bao gồm
   signup: Đăng ký
   static_pages:
     about:
@@ -65,10 +69,29 @@ vi:
       title: Ứng dụng mẫu
       welcome: Chào mừng đến với ứng dụng mẫu
   title: Ứng dụng mẫu Ruby on Rails Tutorial
+  update_profile: Cập nhật tài khoản
   user_list: Danh sách người dùng
   users:
     create:
+      fail_message: Tạo tài khoản lỗi
       welcome_message: Chào mừng đến với ứng dụng mẫu!
+    destroy:
+      user_deleted: Đã Xóa
+    edit:
+      change: Thay đổi
+      edit_user: Edit
+      save_changes: Lưu thay đổi
+      update_profile: Cập nhật tài khoản
+    form:
+      confirmation: Xác nhận mật khẩu
+      email: Email
+      name: Tên
+      password: Mật khẩu
+    index:
+      all_users: Tất cả người dùng
+      delete: Xóa
+      please_log_in: Hãy đăng nhập
+      you_sure: Bạn chắc chắn?
     new:
       confirmation: Xác nhận mật khẩu
       create_account: Tạo tài khoản
@@ -78,3 +101,6 @@ vi:
       signup_message: Đây là trang đăng nhập cho người dùng mới.
     show:
       fail_message: Không tìm thấy người dùng
+    update:
+      profile_updated: Đã cập nhật tài khoản
+      update_failed: Lỗi cập nhật

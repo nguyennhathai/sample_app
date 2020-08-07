@@ -29,9 +29,13 @@ en:
       new_user: New user?
       password: Password
       remember_me: Remember me
-      remember_message: Remember me on this computer
+      remember_message: Remember me
       signup_now: Sign up now!
   settings: Settings
+  shared:
+    error_messages:
+      error: error
+      error_message: 'The form contains '
   signup: Sign up
   static_pages:
     about:
@@ -65,10 +69,29 @@ en:
       title: Sample App
       welcome: Welcome to the Sample App
   title: Ruby on Rails Tutorial Sample App
+  update_profile: Update Profile
   user_list: Users List
   users:
     create:
+      fail_message: Create Failed
       welcome_message: Welcome to the Sample App!
+    destroy:
+      user_deleted: User deleted
+    edit:
+      change: Change
+      edit_user: Edit
+      save_changes: Save Changes
+      update_profile: Update Profile
+    form:
+      confirmation: Comfirmation
+      email: Email
+      name: Name
+      password: Password
+    index:
+      all_users: All Users
+      delete: Delete
+      please_log_in: Please log in.
+      you_sure: Are you sure?
     new:
       confirmation: Password Confirmation
       create_account: Create my account
@@ -81,3 +104,6 @@ en:
       welcome_message: Welcome to the Sample App!
     show:
       fail_message: User not found
+    update:
+      profile_updated: Profile updated
+      update_failed: Updated failed
