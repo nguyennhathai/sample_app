@@ -1,5 +1,17 @@
 vi:
   account: Tài khoản
+  account_activations:
+    edit:
+      account_activated: Tài khoản đã được kích hoạt.
+      invalid_activation_link: Liên kết kích hoạt không hợp lệ.
+  activation:
+    account_activated: Tài khoản đã kích hoạt!
+    account_not_activated: Tài khoản chưa được kích hoạt. Kiểm tra trong mail
+    greeting: Xin chào
+    invalid_activation: Kích hoạt không hợp lệ
+    notice: Hãy kiểm tra trong mail của bạn để kích hoạt tài khoản.
+    subject: Kích hoạt tài khoản
+    welcome: 'Chào mừng đến với ứng dụng mẫu, click đường dẫn để kích hoạt tài khoản:'
   contact: Liên lạc
   hello: Xin chào
   help: Trợ giúp
@@ -18,6 +30,23 @@ vi:
       michael_hartl: Michael Hartl
   login: Đăng nhập
   logout: Đăng xuất
+  password_resets:
+    click_link: Ấn vào đường dẫn để đặt lại mật khẩu
+    create:
+      address_not_found: Không tìm thấy địa chỉ email
+      password_reset_instructions: Email được gửi kèm theo hướng dẫn đặt lại mật khẩu
+    edit:
+      confirmation: Xác nhận
+      update_password: Cập nhật mật khẩu
+      reset_password: Đặt lại mật khẩu
+    expire: Đường dẫn có hiệu lực hai tiếng
+    new:
+      email: Email
+      forgot_password: Quên mật khẩu
+      submit: Submit
+    not_request: INếu bạn không yêu cầu đặt lại mật khẩu, bỏ qua email này
+    password_reset: Đặt lại mật khẩu
+    submit: Submit
   profile: Trang cá nhân
   sampleapp: Ứng dụng mẫu
   sessions:
@@ -26,6 +55,7 @@ vi:
       success_login: Đăng nhập thành công.
     new:
       email: Email
+      forgot_password: Quên mật khẩu?
       new_user: Người dùng mới?
       password: Mật khẩu
       remember_me: Nhớ tôi
@@ -73,9 +103,9 @@ vi:
   user_list: Danh sách người dùng
   users:
     create:
+      active_email_message: Vui lòng kiểm tra email của bạn để kích hoạt tài khoản.
       fail_message: Tạo tài khoản lỗi
       welcome_message: Chào mừng đến với ứng dụng mẫu!
-      active_email_message: Vui lòng kiểm tra email của bạn để kích hoạt tài khoản.
     destroy:
       user_deleted: Đã Xóa
     edit:
@@ -105,15 +135,3 @@ vi:
     update:
       profile_updated: Đã cập nhật tài khoản
       update_failed: Lỗi cập nhật
-  activation:
-    notice: "Hãy kiểm tra trong mail của bạn để kích hoạt tài khoản."
-    account_activated: "Tài khoản đã kích hoạt!"
-    invalid_activation: "Kích hoạt không hợp lệ"
-    greeting: "Xin chào"
-    subject: "Kích hoạt tài khoản"
-    account_not_activated: "Tài khoản chưa được kích hoạt. Kiểm tra trong mail"
-    welcome: "Chào mừng đến với ứng dụng mẫu, click đường dẫn để kích hoạt tài khoản:"
-  account_activations:
-    edit:
-      account_activated: Tài khoản đã được kích hoạt.
-      invalid_activation_link: Liên kết kích hoạt không hợp lệ.
