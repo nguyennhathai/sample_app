@@ -15,3 +15,5 @@ items_per_pages: 20
 avatar_size: 80
 gravatar_email_url: "https://gravatar.com/emails"
 gravatar_avatar_url: "https://secure.gravatar.com/avatar/"
+time:
+  expried: 2
