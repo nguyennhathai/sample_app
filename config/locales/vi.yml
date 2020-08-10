@@ -30,6 +30,20 @@ vi:
       michael_hartl: Michael Hartl
   login: Đăng nhập
   logout: Đăng xuất
+  microposts:
+    delete: Xóa
+    you_sure: Bạn chắc chứ?
+    message_validate_content: "Phải là định dạng ảnh hợp lệ"
+    message_size_content: "cần nhỏ hơn 5MB"
+    micropost_alert: Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn.
+    create:
+      micropost_created: Đã tạo Micropost!
+      micropost_fail: Không tạo được!
+    destroy:
+      micropost_deleted: Đã xóa Micropost!
+    micropost:
+      ago: trước
+      posted: Đã đăng
   password_resets:
     click_link: Ấn vào đường dẫn để đặt lại mật khẩu
     create:
@@ -37,8 +51,8 @@ vi:
       password_reset_instructions: Email được gửi kèm theo hướng dẫn đặt lại mật khẩu
     edit:
       confirmation: Xác nhận
-      update_password: Cập nhật mật khẩu
       reset_password: Đặt lại mật khẩu
+      update_password: Cập nhật mật khẩu
     expire: Đường dẫn có hiệu lực hai tiếng
     new:
       email: Email
@@ -66,6 +80,16 @@ vi:
     error_messages:
       error: Lỗi
       error_message: Mẫu này bao gồm
+    micropost:
+      ago: trước
+      delete: Xóa
+      post: Đăng
+      you_sure: Bạn chắc chứ?
+    micropost_form:
+      compose_new_post: Soạn micropost mới ...
+      post: Đăng bài
+    user_info:
+      view_my_profile: Xem trang cá nhân
   signup: Đăng ký
   static_pages:
     about:
@@ -132,6 +156,7 @@ vi:
       signup_message: Đây là trang đăng nhập cho người dùng mới.
     show:
       fail_message: Không tìm thấy người dùng
+      microposts: Microposts
     update:
       profile_updated: Đã cập nhật tài khoản
       update_failed: Lỗi cập nhật

@@ -29,14 +29,28 @@ en:
       michael_hartl: Michael Hartl
   login: Log in
   logout: Log out
+  microposts:
+    delete: Delete
+    you_sure: You sure
+    message_validate_content: "must be a valid image format"
+    message_size_content: "should be less than 5MB"
+    micropost_alert: Maximum file size is 5MB. Please choose a smaller file.
+    create:
+      micropost_created: Micropost created!
+      micropost_fail: Create failed!
+    destroy:
+      micropost_deleted: Micropost deleted!
+    micropost:
+      ago: ago
+      posted: Posted
   password_resets:
     click_link: To reset your password click the link below
     create:
       address_not_found: Email address not found
       password_reset_instructions: Email sent with password reset instructions
     edit:
-      reset_password: Reset password
       confirmation: Confirmation
+      reset_password: Reset password
       update_password: Update password
     expire: This link will expire in two hours.
     new:
@@ -66,6 +80,16 @@ en:
     error_messages:
       error: error
       error_message: 'The form contains '
+    micropost:
+      ago: ago
+      delete: Delete
+      post: Post
+      you_sure: You sure?
+    micropost_form:
+      compose_new_post: Compose new micropost...
+      post: Post
+    user_info:
+      view_my_profile: View my profile
   signup: Sign up
   static_pages:
     about:
@@ -135,6 +159,7 @@ en:
       welcome_message: Welcome to the Sample App!
     show:
       fail_message: User not found
+      microposts: Microposts
     update:
       profile_updated: Profile updated
       update_failed: Updated failed
