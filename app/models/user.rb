@@ -7,9 +7,9 @@ class User < ApplicationRecord
 
   has_many :microposts, dependent: :destroy
   has_many :active_relationships, class_name: Relationship.name,
-    foreign_key: :follower_id, dependent: :destroy
+    inverse_of: :follower, foreign_key: :follower_id, dependent: :destroy
   has_many :passive_relationships, class_name: Relationship.name,
-    foreign_key: :followed_id, dependent: :destroy
+    inverse_of: :followed, foreign_key: :followed_id, dependent: :destroy
   has_many :following, through: :active_relationships, source: :followed
   has_many :followers, through: :passive_relationships, source: :follower
 
@@ -83,7 +83,7 @@ class User < ApplicationRecord
   end
 
   def feed
-    microposts
+    Micropost.new_feed(following_ids << id).recent_posts
   end
 
   def follow other_user

@@ -31,19 +31,19 @@ vi:
   login: Đăng nhập
   logout: Đăng xuất
   microposts:
-    delete: Xóa
-    you_sure: Bạn chắc chứ?
-    message_validate_content: "Phải là định dạng ảnh hợp lệ"
-    message_size_content: "cần nhỏ hơn 5MB"
-    micropost_alert: Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn.
     create:
       micropost_created: Đã tạo Micropost!
       micropost_fail: Không tạo được!
+    delete: Xóa
     destroy:
       micropost_deleted: Đã xóa Micropost!
+    message_size_content: cần nhỏ hơn 5MB
+    message_validate_content: Phải là định dạng ảnh hợp lệ
     micropost:
       ago: trước
       posted: Đã đăng
+    micropost_alert: Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn.
+    you_sure: Bạn chắc chứ?
   password_resets:
     click_link: Ấn vào đường dẫn để đặt lại mật khẩu
     create:
@@ -88,6 +88,9 @@ vi:
     micropost_form:
       compose_new_post: Soạn micropost mới ...
       post: Đăng bài
+    stats:
+      followers: Người theo dõi
+      following: Đang theo dõi
     user_info:
       view_my_profile: Xem trang cá nhân
   signup: Đăng ký
@@ -126,6 +129,14 @@ vi:
   update_profile: Cập nhật tài khoản
   user_list: Danh sách người dùng
   users:
+    follow:
+      submit: Follow
+    unfollow:
+      submit: Unfollow
+    following:
+      title: Following
+    followers:
+      title: Followers
     create:
       active_email_message: Vui lòng kiểm tra email của bạn để kích hoạt tài khoản.
       fail_message: Tạo tài khoản lỗi
@@ -157,6 +168,9 @@ vi:
     show:
       fail_message: Không tìm thấy người dùng
       microposts: Microposts
+    show_follow:
+      micropost: Micropost
+      view_my_profile: Xem trang cá nhân
     update:
       profile_updated: Đã cập nhật tài khoản
       update_failed: Lỗi cập nhật

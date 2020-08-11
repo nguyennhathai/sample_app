@@ -22,3 +22,4 @@ gravatar_email_url: "https://gravatar.com/emails"
 gravatar_avatar_url: "https://secure.gravatar.com/avatar/"
 time:
   expried: 2
+avatar_tiny_size: 30
