@@ -3,7 +3,13 @@ class ApplicationController < ActionController::Base
 
   before_action :set_locale
 
-  private
+  def find_user
+    @user = User.find_by id: params[:id]
+    return if @user
+
+    flash[:danger] = t ".fail_message"
+    redirect_to root_path
+  end
 
   def logged_in_user
     return if logged_in?
@@ -12,6 +18,8 @@ class ApplicationController < ActionController::Base
     flash[:danger] = t ".please_log_in"
     redirect_to login_url
   end
+
+  private
 
   def set_locale
     I18n.locale = params[:locale] || I18n.default_locale

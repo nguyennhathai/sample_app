@@ -13,7 +13,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    @microposts = @user.microposts.page(params[:page]).per Settings.items_per_pages
+    @microposts = @user.microposts.recent_posts.page(params[:page]).per Settings.items_per_pages
   end
 
   def create
@@ -53,7 +53,6 @@ class UsersController < ApplicationController
     render "show_follow"
   end
 
-
   def destroy
     @user.destroy
     flash[:success] = t ".user_deleted"
@@ -61,6 +60,14 @@ class UsersController < ApplicationController
   end
 
   private
+
+  def load_user
+    @user = User.find_by id: params[:id]
+    return if @user
+
+    flash[:warning] = t "user_not_found"
+    redirect_to root_path
+  end
 
   def user_params
     params.require(:user).permit User::USERS_PARAMS

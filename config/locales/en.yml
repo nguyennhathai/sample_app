@@ -30,19 +30,19 @@ en:
   login: Log in
   logout: Log out
   microposts:
-    delete: Delete
-    you_sure: You sure
-    message_validate_content: "must be a valid image format"
-    message_size_content: "should be less than 5MB"
-    micropost_alert: Maximum file size is 5MB. Please choose a smaller file.
     create:
       micropost_created: Micropost created!
       micropost_fail: Create failed!
+    delete: Delete
     destroy:
       micropost_deleted: Micropost deleted!
+    message_size_content: should be less than 5MB
+    message_validate_content: must be a valid image format
     micropost:
       ago: ago
       posted: Posted
+    micropost_alert: Maximum file size is 5MB. Please choose a smaller file.
+    you_sure: You sure
   password_resets:
     click_link: To reset your password click the link below
     create:
@@ -88,6 +88,9 @@ en:
     micropost_form:
       compose_new_post: Compose new micropost...
       post: Post
+    stats:
+      followers: Followers
+      following: Following
     user_info:
       view_my_profile: View my profile
   signup: Sign up
@@ -126,6 +129,14 @@ en:
   update_profile: Update Profile
   user_list: Users List
   users:
+    follow:
+      submit: Follow
+    unfollow:
+      submit: Unfollow
+    following:
+      title: Following
+    followers:
+      title: Followers
     create:
       active_email_message: Please check your email to activate your account.
       fail_message: Create Failed
@@ -160,6 +171,9 @@ en:
     show:
       fail_message: User not found
       microposts: Microposts
+    show_follow:
+      micropost: Micropost
+      view_my_profile: View my profile
     update:
       profile_updated: Profile updated
       update_failed: Updated failed
